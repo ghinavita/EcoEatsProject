@@ -15,7 +15,7 @@ class _SplashPageState extends State<SplashPage> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       Timer(
         Duration(seconds: 3),
-        () => Navigator.pushReplacementNamed(context, '/homepage-pembeli'),
+        () => Navigator.pushReplacementNamed(context, '/onboarding'),
       );
     });
   }

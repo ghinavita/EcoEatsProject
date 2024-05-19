@@ -3,6 +3,7 @@ import 'package:ecoeats/pages/home/home_penjual.dart';
 import 'package:ecoeats/pages/login_pembeli.dart';
 import 'package:ecoeats/pages/login_penjual.dart';
 import 'package:ecoeats/pages/onboarding.dart';
+import 'package:ecoeats/widget/produk.dart';
 import 'package:flutter/material.dart';
 import 'pages/splash_page.dart';
 
@@ -29,6 +30,10 @@ class MyApp extends StatelessWidget {
         '/login-penjual': (context) => LoginPj(),
         '/homepage-pembeli': (context) => HomePagePm(),
         '/homepage-penjual': (context) => HomePagePj(),
+        '/detail': (context) => DetailPage(
+              produk: {},
+              index: 1,
+            ),
       },
     );
   }
