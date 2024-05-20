@@ -1,3 +1,5 @@
+import 'package:ecoeats/pages/jam_operasional.dart';
+import 'package:ecoeats/pages/detail_pesanan.dart';
 import 'package:ecoeats/pages/home/home_pembeli.dart';
 import 'package:ecoeats/pages/home/home_penjual.dart';
 import 'package:ecoeats/pages/login_pembeli.dart';
@@ -30,6 +32,8 @@ class MyApp extends StatelessWidget {
         '/login-penjual': (context) => LoginPj(),
         '/homepage-pembeli': (context) => HomePagePm(),
         '/homepage-penjual': (context) => HomePagePj(),
+        '/detail-pesanan': (context) => DetailPesananPage(),
+        '/jam-operasional': (context) => JamOperasionalPage(),
         '/detail': (context) => DetailPage(
               produk: {},
               index: 1,
